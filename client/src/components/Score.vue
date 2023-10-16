@@ -56,12 +56,6 @@
         color: var(--color-one);
     }
 
-    i{
-      color: var(--color-one)
-    }
-    span, i{
-      cursor: pointer;
-    }
     .btn{
       background-color: var(--color-one);
     }

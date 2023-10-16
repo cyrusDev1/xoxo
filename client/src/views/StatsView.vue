@@ -1,17 +1,18 @@
 <template>
-    <main class="h-screen">
+    <main class="">
       <HeaderComp></HeaderComp>
-      <Score></Score>
+      <Game></Game>
+      <br><br><br><br><br>
     </main>
   </template>
   
   <script>
   import HeaderComp from '../components/HeaderComp.vue';
-  import Score from '../components/Score.vue';
+  import Game from '../components/Game.vue';
   export default {
     components: {
         HeaderComp,
-        Score,
+        Game,
   },
     data() {
       return {
@@ -37,15 +38,8 @@
   background: var(--color-three);
 
 }
-    button{
-      background-color: var(--color-two);
-    }
-    i{
-      color: var(--color-one)
-    }
-    span, i{
-      cursor: pointer;
-    }
+
+
   
   </style>
   
