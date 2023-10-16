@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="flex items-center justify-center h-screen">
-        <div>
+        <div><RouterLink to="/game">S'identifier</RouterLink>
           <button class="border px-6 py-3 rounded text-white w-72 block mb-3 font-black hover:bg-inherit">MODE SOLO</button>
           <button class="border px-6 py-3 rounded text-white w-72 block mb-3 font-black hover:bg-inherit">MODE MULTIJOUEUR</button>
           <div class="flex w-72 bg-white rounded mb-2">
@@ -96,6 +96,7 @@ export default {
 }
 </script>
 <style scoped>
+
   button{
     background-color: var(--color-two);
   }
