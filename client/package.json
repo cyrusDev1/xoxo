@@ -19,7 +19,9 @@
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "@kyvg/vue3-notification": "^2.9.0",
+    "create-vite": "^4.4.1",
     "notiwind": "^2.0.0",
+    "socket.io-client": "^4.7.2",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6",
     "vue3-cookies": "^1.0.6"
